@@ -1,0 +1,724 @@
+1.
+接口：POST http://127.0.0.1:5000/api/v1.0/users
+描述：用户注册
+传入参数：
+  格式：json
+   name      mobile      password      password2
+  String(32)   String(11)   String(11)    String(11)
+返回数据：
+    格式：json
+
+    {
+        "errno"="4103",
+        "errmsg"='请求参数不完整'
+        }
+     {
+        "errno"="4103",
+        "errmsg"='手机号格式不正确'
+        }
+     {
+        "errno"="4103",
+        "errmsg"='两次密码不一致'
+        }
+      {
+        "errno"="4003",
+        "errmsg"='手机号已注册'
+        }
+      {
+        "errno"="4001",
+        "errmsg"='数据库查询异常'
+        }
+       {
+        "errno"="0",
+        "errmsg"='注册成功'
+        }
+
+2.
+接口：POST http://127.0.0.1:5000/api/v1.0/users/sessions
+描述：用户登陆
+传入参数：
+  格式：json
+    mobile      password
+   String(11)   String(11)
+返回数据：
+    格式：json
+
+    {
+        "errno"="4103",
+        "errmsg"='参数不完整'
+        }
+     {
+        "errno"="4103",
+        "errmsg"='手机号格式错误'
+        }
+      {
+        "errno"="4001",
+        "errmsg"='获取用户信息失败'
+        }
+       {
+        "errno"="4004",
+        "errmsg"='手机号或密码错误'
+        }
+       {
+        "errno"="0",
+        "errmsg"='登陆成功'
+        }
+
+3.
+接口：POST http://127.0.0.1:5000/api/v1.0/admin/sessions
+描述：管理员登陆
+传入参数：
+  格式：json
+    mobile      password
+   String(11)   String(11)
+返回数据：
+    格式：json
+
+    {
+        "errno"="4103",
+        "errmsg"="参数不完整"
+        }
+     {
+        "errno"="4103",
+        "errmsg"="手机号格式错误"
+        }
+      {
+        "errno"="4001",
+        "errmsg"="获取用户信息失败"
+        }
+       {
+        "errno"="4004",
+        "errmsg"="手机号或密码错误"
+        }
+       {
+        "errno"="0",
+        "errmsg"="登陆成功"
+        }
+
+4.
+接口：GET http://127.0.0.1:5000/api/v1.0/session
+描述：检查登陆状态
+传入参数：无
+返回数据：
+    格式：json
+
+    {
+        "errno"="4101",
+        "errmsg"='false'
+        }
+     {
+        "errno"="0",
+        "errmsg"='true',
+        "data"={"name": name}
+        }
+
+5.
+接口：DELETE http://127.0.0.1:5000/api/v1.0/session
+描述：退出登陆状态
+传入参数：无
+返回数据：
+    格式：json
+
+     {
+        "errno"="0",
+        "errmsg"='ok'
+        }
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+1.
+接口：POST http://127.0.0.1:5000/api/v1.0/admin/question
+描述：题库管理-----添加试题功能
+传入参数：
+type（必填）                    answer（必填）     title （必填）     option_A/option_B/option_C/option_D                         score
+单选题/多选题/简答题              TEXT              TEXT                TEXT(若添加的是选择题类型，则必须传入四个选项)              int
+返回数据：
+    格式：json
+    {
+        "errno"="4103",
+        "errmsg"="请求参数不完整"
+        }
+     {
+        "errno"="4103",
+        "errmsg"="选项参数不完整"
+        }
+      {
+        "errno"="4001",
+        "errmsg"="数据库查询异常"
+        }
+     {
+        "errno"="0",
+        "errmsg"='添加成功',
+        "data"=question.id
+        }
+
+
+
+2.
+接口：GET http://127.0.0.1:5000/api/v1.0/admin/question
+描述：题库管理-----查询试题功能
+传入参数：无
+返回数据：
+    格式：json
+      {
+        "errno"="4001",
+        "errmsg"="获取信息失败"
+        }
+     {
+        "errno"="0",
+        "errmsg"='OK'
+        "data" = "[
+                        {
+                         "answer": "HTTP协议是Hyper Text Transfer Protocol的缩写。HTTP 协议和 TCP/IP 协议族内的其他众多的协议相同， 用于客户端和服务器之间的通信。请求访问文本或图像等资源的一端称为客户端， 而提供资源响应的一端称为服务器端。",
+                         "create_time": "2020-04-27 10:45:S",
+                         "option_A": null,
+                         "option_B": null,
+                         "option_C": null,
+                         "option_D": null,
+                         "question_id": 1,
+                         "title": "什么是http协议",
+                         "type": "简答题",
+                         "score":"3"
+                         },
+                        {
+                          "answer": "C",
+                          "create_time": "2020-04-27 10:48:S",
+                          "option_A": "x = y = z = 1",
+                          "option_B": "x, y = y, x ",
+                          "option_C": "x = (y = z + 1)",
+                          "option_D": "x  +=  y",
+                          "question_id": 2,
+                          "title": "下列哪个语句在Python中是非法的？",
+                          "type": "单选题",
+                          "score":"4"
+                        },
+                        ```
+                        ```
+        ]"
+
+
+3.
+接口：PUT http://127.0.0.1:5000/api/v1.0/admin/question
+描述：题库管理-----更改试题功能，不能修改题目的类型，若要修改的题目id对应的是简答题，则可以修改titlr(题目)，answer（答案）；若要修改的题目是选择题，可以修改titlr(题目)，answer（答案，option_A/option_B/option_C/option_D
+传入参数：
+question_id（必填）        type                    answer      title      option_A/option_B/option_C/option_D                      score
+    int             单选题/多选题/简答题       TEXT        TEXT         TEXT(若修改的是选择题类型，则可以修改四个选项，)            int
+返回数据：
+    格式：json
+    {
+        "errno"="4103",
+        "errmsg"="参数不完整"
+        }
+      {
+        "errno"="4001",
+        "errmsg"="修改失败"
+        }
+     {
+        "errno"="0",
+        "errmsg"='修改成功'
+        }
+
+4.
+接口：DELETE http://127.0.0.1:5000/api/v1.0/admin/question
+描述：题库管理-----删除试题功能
+传入参数：
+question_id（必填）
+    int
+返回数据：
+    格式：json
+    {
+        "errno"="4103",
+        "errmsg"="参数不完整"
+        }
+     {
+        "errno"="4001",
+        "errmsg"="获取数据失败"
+        }
+      {
+        "errno"="4001",
+        "errmsg"="删除失败"
+        }
+     {
+        "errno"="0",
+        "errmsg"='删除成功'
+        }
+
+
+
+--------------------------------------------------------------------------
+
+
+1.
+接口：POST http://127.0.0.1:5000/api/v1.0/admin/paper
+描述：试卷管理-----添加试卷功能
+传入参数： （以下参数为必填）
+name（要添加的试卷名称）      type_single（单选题，若有单选题类型，则必须传入"单选题"）          single_num （单选题数量,若没有单选题，则数量为0）   single_scole （单选题分值）   type_multiple（多选题）          multiple_num （多选题数量）   multiple_scole （多选题分值）   type_discussion（简答题）         discussion_num （简答题数量）   discussion_scole （简答题分值）
+ String(32)                      单选题                                                                       int                                          int                         多选题                             int                             int                                简答题                          int                             int
+
+返回数据：
+    格式：json
+    {
+        "errno"="4103",
+        "errmsg"="请求参数不完整"
+        }
+      {
+        "errno"="4001",
+        "errmsg"="数据库查询异常"
+        }
+      {
+        "errno"="4003",
+        "errmsg"="试卷已存在"
+        }
+      {
+        "errno"="4001",
+        "errmsg"="保存数据异常"
+        }
+     {
+        "errno"="0",
+        "errmsg"='OK'，
+        "data"=paper.id  (例如"data"="20")
+        }
+
+2.
+接口：GET http://127.0.0.1:5000/api/v1.0/admin/paper
+描述：题库管理-----查询试卷功能
+传入参数：无
+返回数据：
+    格式：json
+      {
+        "errno"="4001",
+        "errmsg"="获取数据失败"
+        }
+     {
+        "errno"="0",
+        "errmsg"='OK'
+        "data" = "[
+                        {
+                             "create_time": "2020-04-27 17:11:S",
+                             "paper_id": 1,
+                             "paper_name": "卷一",
+                              "paper_state": "0"
+                        },
+                        {
+                            "create_time": "2020-04-30 09:33:S",
+                            "paper_id": 2,
+                            "paper_name": "卷二",
+                            "paper_state": "0"
+                        }
+                        ```
+                        ```
+        ]"
+      }
+
+3.
+接口：PUT http://127.0.0.1:5000/api/v1.0/admin/paper
+描述：题库管理-----更改试卷功能，可以修改试卷的名称(paper_name)以及修改的发布状态（paper_state），0表示未发布，1表示发布
+传入参数：
+paper_id(必传)    paper_state       paper_name
+    int             0/1              String(30)
+返回数据：
+    格式：json
+    {
+        "errno"="4103",
+        "errmsg"="参数不完整"
+        }
+     {
+        "errno"="4001",
+        "errmsg"="获取数据失败"
+        }
+      {
+        "errno"="4001",
+        "errmsg"="修改失败"
+        }
+     {
+        "errno"="0",
+        "errmsg"='修改成功'
+        }
+
+4.
+接口：DELETE http://127.0.0.1:5000/api/v1.0/admin/paper
+描述：题库管理-----删除试卷功能
+传入参数：
+question_id（必填）
+    int
+返回数据：
+    格式：json
+    {
+        "errno"="4103",
+        "errmsg"="参数不完整"
+        }
+       {
+        "errno"="4001",
+        "errmsg"="获取数据失败"
+        }
+      {
+        "errno"="4001",
+        "errmsg"="删除失败"
+        }
+     {
+        "errno"="0",
+        "errmsg"='删除成功'
+        }
+
+---------------------------------------------------------------------------------
+1.
+接口：GET http://127.0.0.1:5000/api/v1.0/admin/search
+描述：用户管理-----按姓名查找用户信息
+传入参数：
+name（必填）
+ String(30)
+返回数据：
+    格式：json
+    {
+        "errno"="4103",
+        "errmsg"="参数不完整"
+        }
+       {
+        "errno"="4001",
+        "errmsg"="获取用户信息失败"
+        }
+     {
+        "errno"="0",
+        "errmsg"='OK'
+        "data" =  [
+                    {
+                        "create_time": "2020-04-24 11:19:S",
+                         "email": null,
+                        "grades": [],
+                        "introduction": null,
+                        "mobile": "13444444444",
+                        "name": "王二",
+                        "sex": "男",
+                        "user_id": 5
+                     }
+                 ]
+         "grade" = [
+                    {
+                      "create_time": "2020-05-09 23:33:S",
+                      "grade": "7",
+                      "grade_id": 1,
+                      "paper_name": "卷15",
+                      "user_id": 6
+                    },
+                    {
+                      "create_time": "2020-05-11 18:20:S",
+                      "grade": "7",
+                      "grade_id": 3,
+                      "paper_name": "卷14",
+                      "user_id": 6
+                    }
+                    '''
+                    '''
+            ]
+        }
+
+2.
+接口：GET http://127.0.0.1:5000/api/v1.0/admin/user
+描述：用户管理功能,查询所有用户的基本信息以及成绩信息
+返回数据：
+    格式：json
+    {
+        "errno"="4103",
+        "errmsg"="参数不完整"
+        }
+       {
+        "errno"="4001",
+        "errmsg"="获取用户信息失败"
+        }
+     {
+        "errno"="0",
+        "errmsg"='OK'
+        "data" =  [
+                    {
+                        "create_time": "2020-04-24 11:19:S",
+                         "email": null,
+                        "grades": [],
+                        "introduction": null,
+                        "mobile": "13444444444",
+                        "name": "王二",
+                        "sex": "男",
+                        "user_id": 5
+                     }
+                 ]
+         "grade" = [
+                    {
+                      "create_time": "2020-05-09 23:33:S",
+                      "grade": "7",
+                      "grade_id": 1,
+                      "paper_name": "卷15",
+                      "user_id": 6
+                    },
+                    {
+                      "create_time": "2020-05-11 18:20:S",
+                      "grade": "7",
+                      "grade_id": 3,
+                      "paper_name": "卷14",
+                      "user_id": 6
+                    },
+                    {
+                      "create_time": "2020-05-11 20:09:S",
+                      "grade": "19",
+                      "grade_id": 4,
+                      "paper_name": "卷14",
+                      "user_id": 4
+    }
+                    '''
+                    '''
+            ]
+        }
+
+-----------------------------------------------------------------------------
+1.
+接口：GET http://127.0.0.1:5000/api/v1.0/paper/question
+描述：查询某一试卷中的试题
+传入参数：
+paper_id（必填）
+ int
+返回数据：
+    格式：json
+    {
+        "errno"="4103",
+        "errmsg"="参数不完整"
+        }
+       {
+        "errno"="4001",
+        "errmsg"=获取数据失败"
+        }
+     {
+        "errno"="0",
+        "errmsg"='OK'
+        "data" =  [
+                    {
+                      "answer": "B",
+                      "create_time": "2020-04-27 10:49:S",
+                      "option_A": "变量不必事先声明",
+                      "option_B": "变量无须先创建和赋值而直接使用",
+                      "option_C": "变量无须指定类型",
+                      "option_D": "可以使用del释放资源",
+                      "question_id": 3,
+                      "title": "关于Python内存管理，下列说法错误的是",
+                      "type": "单选题"
+                    },
+                    {
+                      "answer": "C",
+                      "create_time": "2020-04-27 11:04:S",
+                      "option_A": "无状态会话Bean",
+                      "option_B": "有状态会话Bean",
+                      "option_C": "CMP ",
+                      "option_D": "BMP",
+                      "question_id": 9,
+                      "title": "无状态会话Bean、有状态会话Bean、CMP与BMP中，哪一种Bean不需要自己书写连接数据库的代码？",
+                      "type": "单选题"
+                    }
+                    ```
+                    ```
+                    ```
+
+                 ]
+        }
+
+
+---------------------------------------------------------------------------------------------------------
+培训管理：
+
+1.
+接口：POST http://127.0.0.1:5000/api/v1.0/file/upload
+描述:管理员上传培训材料，可以上传的格式有['txt', 'png', 'jpg', 'xls', 'JPG', 'PNG', 'xlsx', 'gif', 'GIF','docx','pdf'],上传的文件名称中不能出现中文
+传入参数：
+    files类型：‘myfile’ 文件名不能出现中文
+
+返回数据： 提交成功会返回用户的成绩
+    格式：json
+    {
+        "errno"="0",
+        "errmsg"="OK"
+        }
+     {
+        "errno"="4001",
+        "errmsg"="保存数据库失败"
+        }
+      {
+        "errno"="4004",
+        "errmsg"="上传失败"
+        }
+
+2.
+接口：GET http://127.0.0.1:5000/api/v1.0/file/upload
+描述:返回数据库中管理员上传的所有文件
+
+返回数据： 提交成功会返回用户的成绩
+    格式：json
+    {
+          "data": [
+            {
+              "create_time": "2020-06-07 15:49:S",
+              "file_id": 1,
+              "file_name": "timg88AZOK5N.jpg",
+              "file_path": "1591516176.jpg"
+            },
+            {
+              "create_time": "2020-06-07 15:52:S",
+              "file_id": 2,
+              "file_name": "123.txt",
+              "file_path": "1591516330.txt"
+            },
+            {
+              "create_time": "2020-06-07 16:01:S",
+              "file_id": 3,
+              "file_name": "sequence-to-sequence-learning-with-neural-networks.pdf",
+              "file_path": "1591516873.pdf"
+            },
+            {
+              "create_time": "2020-06-07 16:01:S",
+              "file_id": 4,
+              "file_name": "(VGG)Very deep convolution networks for large-scal image recognition.pdf",
+              "file_path": "1591516912.pdf"
+            }
+          ],
+          "errmsg": "OK",
+          "errno": "0"
+        }
+      {
+        "errno"="4001",
+        "errmsg"="获取数据失败"
+        }
+
+````````````````````````````````````````````````````````````````````````````````````````````````````
+1.
+接口：GET http://127.0.0.1:5000/api/v1.0/user
+描述：用户登陆后查看用户信息以及需要考试的试卷信息
+返回数据：
+    格式：json
+     {
+        "errno"="4001",
+        "errmsg"="获取用户信息失败"
+        }
+      {
+        "errno"="4001",
+        "errmsg"="获取考试信息失败"
+        }
+      {
+        "errno"="0",
+        "errmsg"='OK',
+        "data": {
+                    "create_time": "2020-04-24 11:19:S",
+                    "email": "13555555555@qq.com",
+                    "introduction": "我是个演员",
+                    "mobile": "13555555555",
+                    "name": "黄晓明",
+                    "sex": null,
+                    "user_id": 6
+                  },
+        "paper": [
+                    {
+                      "create_time": "2020-04-30 09:33:S",
+                      "paper_id": 2,
+                      "paper_name": "卷二",
+                      "paper_state": "1"
+                    },
+                    {
+                      "create_time": "2020-05-08 19:01:S",
+                      "paper_id": 4,
+                      "paper_name": "卷三",
+                      "paper_state": "1"
+                    },
+                    {
+                      "create_time": "2020-05-08 19:01:S",
+                      "paper_id": 6,
+                      "paper_name": "卷五",
+                      "paper_state": "1"
+                    },
+                    `````
+                ]
+        }
+2.
+接口：PUT http://127.0.0.1:5000/api/v1.0/users/info
+描述：修改用户个人信息，包括：email sex introduction
+传入参数：
+email            sex           introduction
+String(254)      String(32)           TEXT
+返回数据：
+    格式：json
+    {
+        "errno"="4103",
+        "errmsg"="邮箱格式错误"
+        }
+    {
+        "errno"="4003",
+        "errmsg"="邮箱已存在"
+        }
+     {
+        "errno"="4001",
+        "errmsg"="修改失败"
+        }
+     {
+        "errno"="0",
+        "errmsg"='修改成功'
+        }
+3.
+接口：POST http://127.0.0.1:5000/api/v1.0/user/grade
+描述：用户提交试卷答案，系统完成在线判卷，只对单选题和多选题给出得分
+传入参数：
+（question_id与user_answer是一一对应的，比如question_id列表的第一个元素为14，即试题id为14，user_answer列表的第一个元素就是用户对id为14的试题的答案）
+paper_id（必传 试卷id）           questions_id(必传 试题id)           user_answers(必传 用户答案)
+int                                 ['1','2','3']                       ['A','AD','第三方协议']
+    比如：
+    {
+        "paper_id":"15",
+        "questions_id":['14','2','3','8'],
+        "user_answers":['A','AD','第三方协议','错误']
+    }
+
+
+返回数据： 提交成功会返回用户的成绩
+    格式：json
+    {
+        "errno"="4103",
+        "errmsg"="请求参数不完整"
+        }
+     {
+        "errno"="4001",
+        "errmsg"="获取数据失败"
+        }
+      {
+        "errno"="4001",
+        "errmsg"="获取用户信息失败"
+        }
+      {
+        "errno"="4003",
+        "errmsg"="不可重复答题"
+        }
+      {
+        "errno"="4001",
+        "errmsg"="保存数据异常"
+        }
+      {
+        "errno"="0",
+        "errmsg"="OK",
+        "grade": 25
+        }
+
+
+
+---------------------------------------------------------------------------------------
+1.
+接口：POST http://127.0.0.1:5000/api/v1.0/file/download
+描述: 用户下载培训文件
+传入参数：
+    json类型
+    file_name(注：文件名称应该时保存在服务器中的文件名称，也就是对应数据库中的file_path字段)
+
+返回数据： 提交成功会返回用户的成绩
+    格式：json
+     {
+        "errno"="4103",
+        "errmsg"="参数不完整"
+        }
+      {
+        "errno"="4004",
+        "errmsg"="文件下载失败"
+        }

@@ -1,0 +1,1086 @@
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 139-017-397
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [20/Apr/2020 12:28:45] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR - demo.py:9  error mag
+INFO - _internal.py:113  127.0.0.1 - - [20/Apr/2020 12:28:48] "[37mGET /api/v1.0/index HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [21/Apr/2020 18:05:55] "[35m[1mPOST /api/v1.0/users HTTP/1.1[0m" 500 -
+INFO - _internal.py:113  127.0.0.1 - - [21/Apr/2020 18:06:24] "[35m[1mPOST /api/v1.0/users HTTP/1.1[0m" 500 -
+INFO - _internal.py:113  127.0.0.1 - - [21/Apr/2020 18:07:25] "[35m[1mPOST /api/v1.0/users HTTP/1.1[0m" 500 -
+INFO - _internal.py:113  127.0.0.1 - - [21/Apr/2020 18:09:06] "[35m[1mPOST /api/v1.0/users HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\models.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [21/Apr/2020 18:11:41] "[37mPOST /api/v1.0/users HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [22/Apr/2020 17:02:52] "[37mPOST /api/v1.0/users HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [22/Apr/2020 17:03:36] "[37mPOST /api/v1.0/users HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [23/Apr/2020 12:05:26] "[37mPOST /api/v1.0/users/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [23/Apr/2020 12:05:34] "[37mPOST /api/v1.0/users/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [23/Apr/2020 12:05:40] "[37mPOST /api/v1.0/users/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [23/Apr/2020 15:25:01] "[37mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [23/Apr/2020 15:25:17] "[35m[1mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\passport.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [23/Apr/2020 15:26:00] "[37mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [23/Apr/2020 15:27:03] "[37mDELETE /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR - passport.py:49  (pymysql.err.DataError) (1406, "Data too long for column 'mobile' at row 1")
+[SQL: INSERT INTO ih_user_profile (create_time, update_time, password_hash, mobile, name, email, sex, introduction) VALUES (%(create_time)s, %(update_time)s, %(password_hash)s, %(mobile)s, %(name)s, %(email)s, %(sex)s, %(introduction)s)]
+[parameters: {'create_time': datetime.datetime(2020, 4, 24, 11, 14, 14, 246470), 'update_time': datetime.datetime(2020, 4, 24, 11, 14, 14, 246470), 'password_hash': 'pbkdf2:sha256:150000$TQvduA3Z$c9436c84bebf535feaf68720a88be56f2aee650f3459a4a3b361b41c6ccbd4c6', 'mobile': '131111111111', 'name': 'ÕÅºì', 'email': None, 'sex': 'ÄÐ', 'introduction': None}]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+INFO - _internal.py:113  127.0.0.1 - - [24/Apr/2020 11:14:14] "[37mPOST /api/v1.0/users HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\passport.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR - passport.py:49  (pymysql.err.DataError) (1406, "Data too long for column 'mobile' at row 1")
+[SQL: INSERT INTO ih_user_profile (create_time, update_time, password_hash, mobile, name, email, sex, introduction) VALUES (%(create_time)s, %(update_time)s, %(password_hash)s, %(mobile)s, %(name)s, %(email)s, %(sex)s, %(introduction)s)]
+[parameters: {'create_time': datetime.datetime(2020, 4, 24, 11, 16, 59, 47465), 'update_time': datetime.datetime(2020, 4, 24, 11, 16, 59, 47465), 'password_hash': 'pbkdf2:sha256:150000$f5cuEHFQ$8b282747a4dcc8fa762c91711c385d94b9d1a49fd19d250dd1ea593502d106ac', 'mobile': '131111111111', 'name': 'ÕÅºì', 'email': None, 'sex': 'ÄÐ', 'introduction': None}]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+INFO - _internal.py:113  127.0.0.1 - - [24/Apr/2020 11:16:59] "[37mPOST /api/v1.0/users HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR - passport.py:49  (pymysql.err.DataError) (1406, "Data too long for column 'mobile' at row 1")
+[SQL: INSERT INTO ih_user_profile (create_time, update_time, password_hash, mobile, name, email, sex, introduction) VALUES (%(create_time)s, %(update_time)s, %(password_hash)s, %(mobile)s, %(name)s, %(email)s, %(sex)s, %(introduction)s)]
+[parameters: {'create_time': datetime.datetime(2020, 4, 24, 11, 18, 0, 905277), 'update_time': datetime.datetime(2020, 4, 24, 11, 18, 0, 905277), 'password_hash': 'pbkdf2:sha256:150000$vxuC0C3u$2cf2e8a23636cc93f505c887204a2c965966de7d6e9061655a0b394340d33843', 'mobile': '131111111111', 'name': 'ÕÅºì', 'email': None, 'sex': 'ÄÐ', 'introduction': None}]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+INFO - _internal.py:113  127.0.0.1 - - [24/Apr/2020 11:18:00] "[37mPOST /api/v1.0/users HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [24/Apr/2020 11:18:26] "[37mPOST /api/v1.0/users HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [24/Apr/2020 11:19:06] "[37mPOST /api/v1.0/users HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [24/Apr/2020 11:19:31] "[37mPOST /api/v1.0/users HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [24/Apr/2020 11:20:16] "[35m[1mPOST /api/v1.0/users/sessions HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\passport.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\passport.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [24/Apr/2020 11:21:17] "[37mPOST /api/v1.0/users/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [24/Apr/2020 11:21:57] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\passport.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [24/Apr/2020 11:28:51] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [24/Apr/2020 11:29:54] "[37mGET /api/v1.0/user HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [24/Apr/2020 11:30:27] "[37mPUT /api/v1.0/users/info HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [24/Apr/2020 11:31:50] "[37mPUT /api/v1.0/users/info HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [24/Apr/2020 11:33:32] "[37mPUT /api/v1.0/users/info HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [24/Apr/2020 11:35:04] "[31m[1mPUT /api/v1.0/users/sessions HTTP/1.1[0m" 405 -
+INFO - _internal.py:113  127.0.0.1 - - [24/Apr/2020 11:35:19] "[31m[1mPUT /api/v1.0/users/sessions HTTP/1.1[0m" 405 -
+INFO - _internal.py:113  127.0.0.1 - - [24/Apr/2020 11:35:44] "[31m[1mPUT /api/v1.0/users/sessions HTTP/1.1[0m" 405 -
+INFO - _internal.py:113  127.0.0.1 - - [24/Apr/2020 11:35:59] "[37mPOST /api/v1.0/users/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [24/Apr/2020 11:36:24] "[37mPUT /api/v1.0/users/info HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [24/Apr/2020 11:36:58] "[37mGET /api/v1.0/user HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\models.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [24/Apr/2020 11:42:52] "[37mPOST /api/v1.0/users/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [24/Apr/2020 11:43:05] "[37mGET /api/v1.0/user HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [24/Apr/2020 11:43:19] "[37mDELETE /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 10:38:46] "[37mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 10:39:56] "[37mGET /api/v1.0/admin/search HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 10:40:20] "[37mGET /api/v1.0/admin/search HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 10:42:39] "[35m[1mGET /api/v1.0/user HTTP/1.1[0m" 500 -
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 10:45:35] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 10:48:25] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 10:49:10] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 10:55:09] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 10:56:16] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 10:57:05] "[31m[1mPOST /api/v1.0/admin/question HTTP/1.1[0m" 400 -
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 10:57:31] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 10:58:00] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 11:02:53] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 11:04:12] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 11:05:05] "[31m[1mPOST /api/v1.0/admin/question HTTP/1.1[0m" 400 -
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 11:05:12] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 11:18:23] "[31m[1mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 400 -
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 11:18:32] "[37mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 11:18:56] "[37mGET /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 15:54:44] "[37mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 15:58:22] "[33mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 404 -
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 15:59:39] "[33mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 404 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 15:59:44] "[33mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 404 -
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 16:00:21] "[33mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 404 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 16:00:50] "[35m[1mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 16:01:24] "[35m[1mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 16:06:14] "[35m[1mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 16:12:19] "[35m[1mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 16:19:37] "[35m[1mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 16:22:30] "[35m[1mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 16:37:27] "[35m[1mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 16:45:43] "[35m[1mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 16:49:10] "[35m[1mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 16:55:55] "[35m[1mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\models.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [27/Apr/2020 17:11:05] "[37mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 139-017-397
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 139-017-397
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [28/Apr/2020 11:19:40] "[37mGET /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 139-017-397
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [28/Apr/2020 11:21:07] "[37mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [28/Apr/2020 11:21:57] "[37mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [28/Apr/2020 11:23:16] "[37mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [28/Apr/2020 11:23:53] "[37mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [28/Apr/2020 11:24:07] "[31m[1mPOST /api/v1.0/paper HTTP/1.1[0m" 405 -
+INFO - _internal.py:113  127.0.0.1 - - [28/Apr/2020 11:24:19] "[37mGET /api/v1.0/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [28/Apr/2020 11:25:05] "[37mGET /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 09:26:17] "[37mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 09:32:59] "[37mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 09:39:56] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 09:41:02] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 09:42:18] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 09:43:47] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 09:45:29] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 09:46:25] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 09:46:47] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 09:47:14] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 09:47:39] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 09:47:44] "[37mGET /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 09:48:32] "[37mGET /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 09:50:52] "[31m[1mGET /api/v1.0/admin/search HTTP/1.1[0m" 405 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 09:51:06] "[31m[1mPOST /api/v1.0/admin/search HTTP/1.1[0m" 405 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 09:51:43] "[37mGET /api/v1.0/admin/search HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 09:51:55] "[37mGET /api/v1.0/admin/search HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 09:52:31] "[35m[1mGET /api/v1.0/admin/search HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 10:04:28] "[31m[1mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 400 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 10:04:40] "[37mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 10:06:34] "[31m[1mPOST /api/v1.0/admin/question HTTP/1.1[0m" 400 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 10:07:14] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 10:07:24] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 10:08:34] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 10:09:06] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 11:42:44] "[37mPOST /api/v1.0/users/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 11:43:50] "[37mPOST /api/v1.0/users/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 11:51:54] "[37mPOST /api/v1.0/users/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 11:53:33] "[37mPUT /api/v1.0/users/info HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 11:53:41] "[37mPUT /api/v1.0/users/info HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 11:55:10] "[37mPUT /api/v1.0/users/info HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 11:58:19] "[37mPOST /api/v1.0/users/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 11:58:26] "[33mPUT /api/v1.0/users/i HTTP/1.1[0m" 404 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 11:58:48] "[37mPUT /api/v1.0/users/info HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 12:03:56] "[37mPUT /api/v1.0/users/info HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 12:04:50] "[37mPUT /api/v1.0/users/info HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 12:07:04] "[37mPUT /api/v1.0/users/info HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 12:07:23] "[35m[1mPUT /api/v1.0/users/info HTTP/1.1[0m" 500 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 12:08:48] "[35m[1mPUT /api/v1.0/users/info HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 12:18:56] "[35m[1mPUT /api/v1.0/users/info HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 12:23:25] "[35m[1mPUT /api/v1.0/users/info HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 12:25:41] "[35m[1mPUT /api/v1.0/users/info HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR - users.py:105  'scoped_session' object has no attribute 'update'
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 12:37:28] "[37mPUT /api/v1.0/users/info HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR - users.py:105  'scoped_session' object has no attribute 'update'
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 12:38:37] "[37mPUT /api/v1.0/users/info HTTP/1.1[0m" 200 -
+ERROR - users.py:105  'scoped_session' object has no attribute 'update'
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 12:39:39] "[37mPUT /api/v1.0/users/info HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 12:43:33] "[37mPUT /api/v1.0/users/info HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 12:44:08] "[37mPUT /api/v1.0/users/info HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR - users.py:106  'scoped_session' object has no attribute 'update'
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 12:44:46] "[37mPUT /api/v1.0/users/info HTTP/1.1[0m" 200 -
+ERROR - users.py:106  'scoped_session' object has no attribute 'update'
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 12:45:18] "[37mPUT /api/v1.0/users/info HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 12:45:59] "[37mPUT /api/v1.0/users/info HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 12:47:02] "[37mPUT /api/v1.0/users/info HTTP/1.1[0m" 200 -
+ERROR - users.py:102  (pymysql.err.IntegrityError) (1062, "Duplicate entry '13555555555@qq.com' for key 'ih_user_profile.email'")
+[SQL: UPDATE ih_user_profile SET update_time=%(update_time)s, email=%(email)s WHERE ih_user_profile.id = %(id_1)s]
+[parameters: {'update_time': datetime.datetime(2020, 4, 30, 12, 47, 36, 890250), 'email': '13555555555@qq.com', 'id_1': 4}]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 12:47:36] "[37mPUT /api/v1.0/users/info HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 13:40:35] "[37mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 13:40:56] "[37mGET /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 13:42:49] "[35m[1mPUT /api/v1.0/admin/question HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 13:45:31] "[35m[1mPUT /api/v1.0/admin/question HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 13:47:31] "[35m[1mPUT /api/v1.0/admin/question HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR - admin.py:118  'Question' object has no attribute 'update'
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 13:48:49] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+ERROR - admin.py:118  'Question' object has no attribute 'update'
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 13:50:18] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR - admin.py:117  'Question' object has no attribute 'update'
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 15:26:09] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR - admin.py:117  'Question' object has no attribute 'update'
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 15:35:41] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR - admin.py:117  'Question' object has no attribute 'update'
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 15:37:28] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 16:50:17] "[35m[1mPUT /api/v1.0/admin/question HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR - admin.py:117  'Question' object has no attribute 'update'
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 16:50:34] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 18:39:36] "[35m[1mPUT /api/v1.0/admin/question HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR - admin.py:117  'Question' object has no attribute 'update'
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 18:39:51] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 18:44:27] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 18:46:13] "[37mGET /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [30/Apr/2020 18:48:38] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 139-017-397
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [03/May/2020 19:17:44] "[37mDELETE /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [03/May/2020 19:18:46] "[37mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [03/May/2020 19:18:59] "[37mDELETE /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [03/May/2020 19:19:07] "[37mGET /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 139-017-397
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 139-017-397
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 16:51:15] "[37mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 16:51:36] "[37mGET /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 16:52:22] "[37mGET /api/v1.0/admin/paper/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 16:55:39] "[37mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+ERROR - admin.py:343  'NoneType' object has no attribute 'name'
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 16:57:05] "[37mPUT /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 16:57:25] "[37mPUT /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 16:58:29] "[37mGET /api/v1.0/admin/paper/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 16:59:19] "[37mDELETE /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 17:00:07] "[37mGET /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 17:00:20] "[37mGET /api/v1.0/admin/paper/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 17:00:53] "[37mDELETE /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 17:01:14] "[37mGET /api/v1.0/admin/paper/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 17:01:41] "[37mGET /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\models.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 17:25:48] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 17:27:17] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 17:28:48] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 17:29:57] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 17:29:58] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 17:29:59] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 17:36:30] "[37mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 17:36:36] "[33mPOST /api/v1.0/admin/q HTTP/1.1[0m" 404 -
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 17:36:50] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 17:38:43] "[37mPOST /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 17:42:36] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 17:43:34] "[37mGET /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 17:44:42] "[37mGET /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+ERROR - admin.py:343  Class 'builtins.NoneType' is not mapped
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 17:50:29] "[37mPUT /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 17:50:35] "[37mPUT /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 17:55:27] "[37mGET /api/v1.0/admin/search HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\models.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [06/May/2020 18:05:03] "[37mGET /api/v1.0/paper/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [08/May/2020 18:57:28] "[37mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [08/May/2020 18:57:39] "[37mGET /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [08/May/2020 19:01:01] "[31m[1mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 400 -
+INFO - _internal.py:113  127.0.0.1 - - [08/May/2020 19:01:07] "[37mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [08/May/2020 19:01:42] "[37mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [08/May/2020 19:01:51] "[37mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [08/May/2020 19:02:35] "[37mPUT /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+ERROR - admin.py:344  'NoneType' object has no attribute 'state'
+INFO - _internal.py:113  127.0.0.1 - - [08/May/2020 19:02:39] "[37mPUT /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [08/May/2020 19:02:44] "[37mPUT /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [08/May/2020 19:02:49] "[37mPUT /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [08/May/2020 19:03:09] "[37mDELETE /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [08/May/2020 19:05:33] "[37mPOST /api/v1.0/users/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [08/May/2020 19:05:54] "[37mGET /api/v1.0/user/paper HTTP/1.1[0m" 200 -
+ERROR - admin.py:397  'NoneType' object has no attribute 'questions'
+INFO - _internal.py:113  127.0.0.1 - - [08/May/2020 19:06:24] "[37mGET /api/v1.0/paper/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [08/May/2020 19:07:05] "[37mGET /api/v1.0/paper/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [08/May/2020 19:07:46] "[37mGET /api/v1.0/user HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [08/May/2020 19:09:01] "[37mGET /api/v1.0/user HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:54:04] "[37mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:54:28] "[37mGET /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\models.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:56:28] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:56:33] "[35m[1mPUT /api/v1.0/admin/question HTTP/1.1[0m" 500 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:57:20] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:57:28] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:57:33] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:57:39] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:57:51] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:58:00] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:58:12] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:58:23] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:58:27] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:58:32] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:58:38] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:58:44] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:58:49] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:58:52] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:58:57] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:59:05] "[35m[1mPUT /api/v1.0/admin/question HTTP/1.1[0m" 500 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:59:17] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:59:26] "[37mPUT /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:59:30] "[35m[1mPUT /api/v1.0/admin/question HTTP/1.1[0m" 500 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 19:59:35] "[35m[1mPUT /api/v1.0/admin/question HTTP/1.1[0m" 500 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:00:28] "[37mGET /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:10:08] "[37mPOST /api/v1.0/users/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:10:19] "[37mPOST /api/v1.0/users/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:12:07] "[31m[1mGET /api/v1.0/users HTTP/1.1[0m" 405 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:12:10] "[31m[1mGET /api/v1.0/users HTTP/1.1[0m" 405 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:12:18] "[37mGET /api/v1.0/user HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:13:26] "[37mGET /api/v1.0/paper/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:14:47] "[37mGET /api/v1.0/paper/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:15:00] "[37mGET /api/v1.0/paper/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:15:43] "[37mGET /api/v1.0/paper/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:16:39] "[37mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 200 -
+ERROR - admin.py:402  'NoneType' object has no attribute 'questions'
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:16:51] "[37mGET /api/v1.0/paper/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:20:40] "[37mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:21:02] "[37mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:21:06] "[37mGET /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:21:55] "[33mGET /api/v1.0/admin/paper/question HTTP/1.1[0m" 404 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:22:43] "[37mGET /api/v1.0/paper/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:28:41] "[37mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:31:23] "[37mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:33:55] "[37mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:43:12] "[37mGET /api/v1.0/admin/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:55:53] "[37mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:59:25] "[37mGET /api/v1.0/paper/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 20:59:54] "[33mPOST /api/v1.0/paper HTTP/1.1[0m" 404 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 21:00:02] "[37mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 21:00:13] "[35m[1mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 500 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 21:00:22] "[37mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 21:00:28] "[37mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 21:00:34] "[37mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 22:19:36] "[37mGET /api/v1.0/paper/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 22:42:25] "[37mPOST /api/v1.0/users/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 22:45:24] "[37mGET /api/v1.0/user HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 22:48:57] "[37mPOST /api/v1.0/user/grade HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 22:49:20] "[35m[1mPOST /api/v1.0/user/grade HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 22:52:06] "[35m[1mPOST /api/v1.0/user/grade HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 22:57:00] "[35m[1mPOST /api/v1.0/user/grade HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 23:03:16] "[35m[1mPOST /api/v1.0/user/grade HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 23:05:11] "[35m[1mPOST /api/v1.0/user/grade HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 23:06:33] "[35m[1mPOST /api/v1.0/user/grade HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 23:07:14] "[35m[1mPOST /api/v1.0/user/grade HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 23:10:34] "[35m[1mPOST /api/v1.0/user/grade HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 23:11:48] "[35m[1mPOST /api/v1.0/user/grade HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 23:16:12] "[35m[1mPOST /api/v1.0/user/grade HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 23:17:15] "[35m[1mPOST /api/v1.0/user/grade HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 23:18:13] "[35m[1mPOST /api/v1.0/user/grade HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 23:18:53] "[35m[1mPOST /api/v1.0/user/grade HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 23:25:16] "[35m[1mPOST /api/v1.0/user/grade HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 23:30:34] "[35m[1mPOST /api/v1.0/user/grade HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 23:32:23] "[35m[1mPOST /api/v1.0/user/grade HTTP/1.1[0m" 500 -
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 23:33:14] "[37mPOST /api/v1.0/user/grade HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 23:48:42] "[37mPOST /api/v1.0/user/grade HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [09/May/2020 23:55:08] "[37mPOST /api/v1.0/user/grade HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 175-168-778
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 18:07:22] "[37mPOST /api/v1.0/users/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 18:08:33] "[37mPOST /api/v1.0/users/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 18:08:42] "[37mPOST /api/v1.0/users/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 18:09:09] "[35m[1mGET /api/v1.0/user HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\models.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 175-168-778
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 18:12:32] "[37mGET /api/v1.0/user HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 18:13:38] "[37mGET /api/v1.0/paper/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 18:19:37] "[37mPOST /api/v1.0/user/grade HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 18:20:02] "[37mPOST /api/v1.0/user/grade HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 175-168-778
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 18:20:34] "[37mPOST /api/v1.0/user/grade HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 18:21:41] "[37mDELETE /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 18:22:26] "[37mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 18:23:59] "[37mGET /api/v1.0/admin/search HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 175-168-778
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 175-168-778
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 19:53:07] "[35m[1mGET /api/v1.0/admin/search HTTP/1.1[0m" 500 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 175-168-778
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 20:01:50] "[37mGET /api/v1.0/admin/search HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 175-168-778
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 20:03:11] "[37mGET /api/v1.0/admin/user HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 20:03:38] "[37mDELETE /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 20:04:20] "[37mPOST /api/v1.0/users/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 20:07:19] "[35m[1mPOST /api/v1.0/user/grade HTTP/1.1[0m" 500 -
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 20:09:13] "[37mPOST /api/v1.0/user/grade HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 20:09:32] "[37mDELETE /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 20:10:23] "[37mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 20:11:08] "[37mGET /api/v1.0/admin/user HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 175-168-778
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 20:20:28] "[37mDELETE /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 20:21:08] "[37mPOST /api/v1.0/users/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 20:21:19] "[37mPOST /api/v1.0/users/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 20:21:54] "[37mGET /api/v1.0/user HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 20:38:28] "[37mGET /api/v1.0/paper/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 20:42:28] "[37mGET /api/v1.0/paper/question HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [11/May/2020 20:42:37] "[37mPOST /api/v1.0/user/grade HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\users.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 175-168-778
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [24/May/2020 19:53:43] "[37mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 277-269-075
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [24/May/2020 20:34:12] "[37mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [24/May/2020 20:37:04] "[37mPOST /api/v1.0/admin/paper HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 139-017-397
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [07/Jun/2020 15:40:27] "[37mPOST /api/v1.0/admin/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 139-017-397
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 139-017-397
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 139-017-397
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 139-017-397
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [07/Jun/2020 15:45:08] "[33mPOST /api/file/upload HTTP/1.1[0m" 404 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 139-017-397
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [07/Jun/2020 15:46:52] "[37mPOST //api/v1.0/file/upload HTTP/1.1[0m" 200 -
+ERROR - admin.py:486  'SQLAlchemy' object has no attribute 'commit'
+INFO - _internal.py:113  127.0.0.1 - - [07/Jun/2020 15:48:06] "[37mPOST //api/v1.0/file/upload HTTP/1.1[0m" 200 -
+ERROR - admin.py:486  'SQLAlchemy' object has no attribute 'commit'
+INFO - _internal.py:113  127.0.0.1 - - [07/Jun/2020 15:48:47] "[37mPOST //api/v1.0/file/upload HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 139-017-397
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR - admin.py:488  'SQLAlchemy' object has no attribute 'commit'
+INFO - _internal.py:113  127.0.0.1 - - [07/Jun/2020 15:48:52] "[37mPOST //api/v1.0/file/upload HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 139-017-397
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [07/Jun/2020 15:49:36] "[37mPOST //api/v1.0/file/upload HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [07/Jun/2020 15:50:44] "[37mPOST /api/v1.0/file/download HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [07/Jun/2020 15:51:45] "[37mPOST /api/v1.0/file/upload HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [07/Jun/2020 15:52:10] "[37mPOST /api/v1.0/file/upload HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [07/Jun/2020 15:53:17] "[37mPOST /api/v1.0/file/download HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [07/Jun/2020 15:54:16] "[37mGET /api/v1.0/file/upload HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 139-017-397
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [07/Jun/2020 15:59:54] "[37mPOST /api/v1.0/file/upload HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [07/Jun/2020 16:00:28] "[37mPOST /api/v1.0/file/upload HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 139-017-397
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [07/Jun/2020 16:01:13] "[37mPOST /api/v1.0/file/upload HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [07/Jun/2020 16:01:25] "[37mPOST /api/v1.0/file/upload HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [07/Jun/2020 16:01:44] "[37mPOST /api/v1.0/file/upload HTTP/1.1[0m" 200 -
+INFO - _internal.py:113  127.0.0.1 - - [07/Jun/2020 16:01:52] "[37mPOST /api/v1.0/file/upload HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 139-017-397
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 139-017-397
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [07/Jun/2020 16:08:27] "[37mPOST /api/v1.0/file/download HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 139-017-397
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py:113  127.0.0.1 - - [07/Jun/2020 16:24:29] "[37mGET /api/v1.0/file/upload HTTP/1.1[0m" 200 -
+INFO - _internal.py:113   * Detected change in 'D:\\Mycode\\Pythoncode\\myweb\\ihome\\api_1_0\\admin.py', reloading
+INFO - _internal.py:113   * Restarting with stat
+WARNING - _internal.py:113   * Debugger is active!
+INFO - _internal.py:113   * Debugger PIN: 139-017-397
+INFO - _internal.py:113   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

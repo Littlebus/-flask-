@@ -1,0 +1,7 @@
+ 数据库连接配置：config.py 里面的class Config : SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:timeinan11@127.0.0.1:3306/db_medical_test"
+ 数据库初始化：
+ python app.py db init
+ python app.py db migrate
+ python app.py db upgrade
+ 运行程序：python app.py runserver
+ 
